@@ -1,0 +1,8 @@
+package programma;
+
+public class Rubrica {
+
+	String nomeRubrica;
+	Contatto[] schedario = new Contatto[11];
+	
+}

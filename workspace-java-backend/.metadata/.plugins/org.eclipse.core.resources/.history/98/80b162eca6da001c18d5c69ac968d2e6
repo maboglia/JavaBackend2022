@@ -1,0 +1,17 @@
+
+public class Gioco {
+
+	public static void main(String[] args) {
+
+		String sceltaUmano = "pietra";
+		String sceltaPC = "forbici";
+		
+		String result = "umano";
+		
+		System.out.println(result);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Gioco {
+
+	public static void main(String[] args) {
+		System.out.println("Funziona");
+		
+		String s = "Hello, Eclipse";
+		
+		System.out.println(s);
+		
+		int a = 14;
+		
+		if (a > 10) {
+			System.out.println("maggiore di 10");
+		} else {
+			System.out.println("minore di 10");
+		}
+		
+
+	}
+
+}

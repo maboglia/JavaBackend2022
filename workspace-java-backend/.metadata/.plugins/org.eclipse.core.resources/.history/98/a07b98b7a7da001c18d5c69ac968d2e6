@@ -1,0 +1,22 @@
+
+public class Gioco {
+
+	public static void main(String[] args) {
+
+		String sceltaUmano = "pietra";
+		String sceltaPC = sceltaCasuale();
+		
+		String result = "umano";
+		
+		System.out.println("scelta umano: " + sceltaUmano);
+		System.out.println("scelta pc: " + sceltaPC);
+		System.out.println(result);
+		
+	}
+
+	private static String sceltaCasuale() {
+		// TODO Auto-generated method stub
+		return "forbici";
+	}
+
+}

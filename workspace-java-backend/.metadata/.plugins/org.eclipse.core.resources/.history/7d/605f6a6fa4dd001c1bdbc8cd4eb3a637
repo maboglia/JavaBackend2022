@@ -1,0 +1,10 @@
+package programma;
+
+public class Contatto {
+
+	String nome;
+	String cognome;
+	String telefono;
+	
+	
+}

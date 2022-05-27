@@ -1,0 +1,13 @@
+
+public class Gioco {
+
+	public static void main(String[] args) {
+		System.out.println("Funziona");
+		
+		String s = "Hello, Eclipse";
+		
+		System.out.println(s);
+
+	}
+
+}

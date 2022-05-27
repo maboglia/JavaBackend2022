@@ -1,0 +1,44 @@
+
+public class Gioco {
+
+	public static void main(String[] args) {
+
+		String sceltaUmano = "pietra";
+		String sceltaPC = sceltaCasuale();
+		
+		String result = valutaScelte(sceltaUmano, sceltaPC);
+		
+		System.out.println("scelta umano: " + sceltaUmano);
+		System.out.println("scelta pc: " + sceltaPC);
+		System.out.println(result);
+		
+	}
+
+	private static String valutaScelte(String sceltaUmano, String sceltaPC) {
+		String risposta = null;
+		
+		if (sceltaUmano.equals(sceltaPC)) {
+			risposta = "pareggio";
+		}
+		
+		return risposta;
+	}
+
+	private static String sceltaCasuale() {
+		
+		String risposta = null;
+		
+		double casuale = Math.random();
+		
+		if (casuale < 0.3333) {
+			risposta = "pietra";
+		} else if (casuale < 0.6666) {
+			risposta = "forbici";
+		} else {
+			risposta = "carta";
+		}
+		
+		return risposta;
+	}
+
+}

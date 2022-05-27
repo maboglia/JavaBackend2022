@@ -1,0 +1,36 @@
+
+public class Gioco {
+
+	public static void main(String[] args) {
+		System.out.println("Funziona");
+		
+		String s = "Hello, Eclipse";
+		
+		//fino a qui ho dimostrato che le istruzioni sono eseguite in sequenza
+		System.out.println(s);
+		
+		int a = 4;
+		
+		
+		/*
+		 * Questo è un commento su più righe
+		 * scelta
+		 * 
+		 */
+		if (a > 10) {
+			System.out.println("maggiore di 10");
+		} else {
+			System.out.println("minore di 10");
+		}
+		
+		
+		for(int i = 0; i <5; i++) {
+			System.out.println("-----------" + i);
+		}
+		
+		
+		
+
+	}
+
+}
