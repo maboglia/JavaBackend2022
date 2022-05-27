@@ -21,7 +21,7 @@ public class ProvaRubrica {
 		r.schedario[1] = c2;
 		r.schedario[5] = c2;
 		
-		
+		//modificato
 		r.stampaRubrica();
 		
 		
