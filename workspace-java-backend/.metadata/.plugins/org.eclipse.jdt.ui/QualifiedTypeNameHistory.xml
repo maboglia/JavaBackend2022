@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="programma.Rubrica"/>
+    <fullyQualifiedTypeName name="veicoli.Bicicletta"/>
+    <fullyQualifiedTypeName name="veicoli.Automobile"/>
+    <fullyQualifiedTypeName name="gioco.Dado"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="primitivi.MetodiAusiliari"/>
+    <fullyQualifiedTypeName name="agenda.Impegno"/>
+    <fullyQualifiedTypeName name="agenda.Pagina"/>
+    <fullyQualifiedTypeName name="agenda.Settimana"/>
 </qualifiedTypeNameHistroy>
