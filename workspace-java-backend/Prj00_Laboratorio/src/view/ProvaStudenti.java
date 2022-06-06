@@ -11,6 +11,27 @@ public class ProvaStudenti {
 	public static void main(String[] args) {
 
 
+		Studente[] registro = leggiFile();
+
+		
+		//----------Stmap REGISTRO-----------------------------------------------
+		
+		
+		stampaRegistro(registro);
+		
+		//System.out.println("funge");
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+	private static Studente[] leggiFile() {
 		File f = new File("files/studenti.txt");
 		
 //		System.out.println(System.lineSeparator());
@@ -42,14 +63,13 @@ public class ProvaStudenti {
 			//e.printStackTrace();
 			System.err.println(e.getMessage());
 		}
+		return registro;
+	}
 
-		
+	private static void stampaRegistro(Studente[] registro) {
 		for (Studente studente : registro) {
-			System.out.println(studente.stampa());
+			System.out.println(studente);
 		}
-		
-		System.out.println("funge");
-
 	}
 
 }
