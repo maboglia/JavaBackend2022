@@ -1,5 +1,10 @@
 package model;
 
+/**
+ * Questa classe definisce uno studente
+ * @author teacher
+ *
+ */
 public class Studente {
 
 	static int counter = 1;
@@ -8,6 +13,11 @@ public class Studente {
 	String nome;
 	String cognome;
 	
+	/**
+	 * Costruttore dello Studente
+	 * @param nome passare come primo par il nome dello
+	 * @param cognome knklhklòhsfaklhlsfkò
+	 */
 	public Studente(String nome, String cognome) {
 
 		this.nMatricola = counter++;
@@ -15,6 +25,9 @@ public class Studente {
 		this.cognome = cognome;
 	}
 
+	/**
+	 * 
+	 */
 	@Override
 	public String toString() {
 		return "Studente [nMatricola=" + nMatricola + ", nome=" + nome + ", cognome=" + cognome + "]";
