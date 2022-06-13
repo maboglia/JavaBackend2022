@@ -14,15 +14,14 @@ public class Connessione {
 	
 	private Connection conn;
 	
-	
-	public void connetti() {
+	private void connetti() {
 		
-		try {
-			Class.forName(DRIVER);
-		} catch (ClassNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
+//		try {
+//			Class.forName(DRIVER);
+//		} catch (ClassNotFoundException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
 		
 		try {
 			this.conn = DriverManager.getConnection(HOST, USER, PASS);
@@ -32,14 +31,12 @@ public class Connessione {
 			System.err.println(e.getMessage());
 		}
 		
-		
-	}
-
-	public static void main(String[] args) {
-		Connessione c = new Connessione();
-		c.connetti();
 	}
 	
-	
+	public Connection getConn() {
+		if (this.conn==null)
+			connetti();
+		return conn;//singleton
+	}
 	
 }
