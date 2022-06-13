@@ -2,6 +2,9 @@ package view;
 
 
 
+import java.util.ArrayList;
+
+import model.Forma;
 import model.Punto;
 import model.Quadrato;
 import model.Rettangolo;
@@ -20,27 +23,41 @@ public class ProvaGeometria {
 		Segmento ab = new Segmento(a, b);
 		Segmento ac = new Segmento(a, c);
 		
-		Triangolo t1 = new Triangolo(a, b, c);
+		Forma t1 = new Triangolo(a, b, c);
 		
-		Rettangolo r1 = new Rettangolo(ab, ac);
+		Forma r1 = new Rettangolo(ab, ac);
 		
-		Quadrato q1 = new Quadrato(ac); 
+		Forma q1 = new Quadrato(ac); 
 		
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(ab);
-		System.out.println(ab.lunghezza());
+		ArrayList<Forma> forme = new ArrayList<>();
 		
-		System.out.println(t1);
-		System.out.println("Perimetro: " + t1.perimetro());
-		System.out.println("Area: " + t1.superficie());
+		forme.add(t1);
+		forme.add(r1);
+		forme.add(q1);
 		
-		System.out.println(r1);
-		System.out.println("Perimetro: " + r1.perimetro());
-		System.out.println("Area: " + r1.superficie());
+		for (Forma i : forme) {
+			if (i instanceof Triangolo)
+				System.out.println("questo è un triangolo!!");
+			System.out.println(i);
+		}
 		
-		System.out.println(q1);
 		
+		
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(ab);
+//		System.out.println(ab.lunghezza());
+//		
+//		System.out.println(t1);
+//		System.out.println("Perimetro: " + t1.perimetro());
+//		System.out.println("Area: " + t1.superficie());
+//		
+//		System.out.println(r1);
+//		System.out.println("Perimetro: " + r1.perimetro());
+//		System.out.println("Area: " + r1.superficie());
+//		
+//		System.out.println(q1);
+//		
 		
 		
 

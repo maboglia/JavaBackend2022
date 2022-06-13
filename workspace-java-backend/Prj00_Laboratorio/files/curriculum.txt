@@ -1,0 +1,30 @@
+23/05/22 - In fase di apprendimento
+Tecniche di Programmazione Java Backend
+600 ore di cui 280 stage - Validazione competenze
+
+            algoritmi, workflow e UML Class Diagram                                           
+ 
+            OOP                                                  
+            Java Building Blocks                        
+            Operators&Statements                                 
+            Core Java APIs                                 
+            Methods and Encapsulation             
+            Class Design                                     
+            Exceptions                                        
+ 
+            Advanced Class Design                   
+            Generics and Collections
+            Functional Programming, Lambda Expressions
+
+            Dates, Strings, and Localization
+            Exceptions and Assertions
+            IO - NIO
+            JDBC
+            JSP e Servlet
+            Spring Boot
+
+ 
+Design Patterns and Principles
+           MVC
+           DAO
+           Singleton

@@ -1,7 +1,0 @@
-package programma;
-
-public class Rubrica {
-
-	Contatto[] schedario;
-	
-}
