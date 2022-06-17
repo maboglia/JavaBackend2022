@@ -1,6 +1,6 @@
 package interfacce;
 
-public interface Contratto {
+public interface Contratto extends ContrattoBase{
 
 	//implicitamente public abstract
 	
