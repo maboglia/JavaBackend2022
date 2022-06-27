@@ -18,7 +18,7 @@ public class CaricaDati {
 	
 	private Connection conn = null;
 	
-	private Statement stat;
+	private Statement stat;//contenitore per le query
 	private PreparedStatement ps;
 	
 	private void connetti() {
