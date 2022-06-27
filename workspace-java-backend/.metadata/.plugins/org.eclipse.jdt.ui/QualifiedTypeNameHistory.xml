@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="veicoli.Automobile"/>
-    <fullyQualifiedTypeName name="gioco.Dado"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="primitivi.MetodiAusiliari"/>
     <fullyQualifiedTypeName name="agenda.Impegno"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="model.Opera"/>
     <fullyQualifiedTypeName name="database.Oggetti"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="statiche.ClasseIstanziabile"/>
+    <fullyQualifiedTypeName name="statiche.ClasseNonIstanziabile"/>
 </qualifiedTypeNameHistroy>
