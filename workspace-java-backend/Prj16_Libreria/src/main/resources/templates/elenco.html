@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Elenco libri</h1>
+
+<table>
+  <tr>
+    <th>Titolo</th>
+    <th>Prezzo</th>
+    <th></th>
+  </tr>
+
+  <tr th:each="libro : ${elencoLibri}">
+    <td th:text="${libro.titolo}"></td>
+    <td th:text="${libro.prezzo}"></td>
+    <td><button onclick="vedidettaglio(this)" th:text="${libro.id}">Dettaglio</button></td>
+  </tr>
+
+</table>
+
+<script>
+
+    const URL = "http://localhost:9091/libreria/api";
+
+    function vedidettaglio(a){
+	
+    	
+    	let id = a.textContent;
+    fetch(URL + '/' +id).then(a => a.json()).then(libro => {
+
+    	
+       
+            const contenitore = document.createElement('div');
+
+            contenitore.textContent = libro.titolo
+            contenitore.textContent += libro.prezzo
+        
+			document.body.appendChild(contenitore);
+
+
+    })
+    };
+
+</script>
+
+</body>
+</html>

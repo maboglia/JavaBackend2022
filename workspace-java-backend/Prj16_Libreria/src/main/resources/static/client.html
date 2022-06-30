@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<table id="tabella"></table>
+
+
+<script>
+
+    const URL = "http://localhost:9091/libreria/api";
+    const tabella = document.getElementById("tabella");
+
+    fetch(URL).then(a => a.json()).then(libri => {
+
+    	
+        for (const libro of libri) {
+            const RIGA = document.createElement('tr');
+            const CELLA1 = document.createElement('td');
+            const CELLA2 = document.createElement('td');
+            console.log(RIGA)
+
+            CELLA1.textContent = libro.titolo
+            CELLA2.textContent = libro.prezzo
+            RIGA.appendChild(CELLA1)
+            RIGA.appendChild(CELLA2)
+            tabella.appendChild(RIGA)
+        }
+
+
+
+    })
+
+
+</script>
+
+</body>
+</html>
