@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jpt.jpa"/>
-			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+			<item value="org.eclipse.fx.ide"/>
 			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.xtext.projectwiz"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
