@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Prj10_HelloWeb" path="/Prj10_HelloWeb" reloadable="true" source="org.eclipse.jst.jee.server:Prj10_HelloWeb"/><Context docBase="Prj12_LibreriaWeb" path="/libreria-web" reloadable="true" source="org.eclipse.jst.jee.server:Prj12_LibreriaWeb"/><Context docBase="Prj14_Contrabbando" path="/contrabbando" reloadable="true" source="org.eclipse.jst.jee.server:Prj14_Contrabbando"/><Context docBase="Prj15_Wimbledon" path="/Prj15_Wimbledon" reloadable="true" source="org.eclipse.jst.jee.server:Prj15_Wimbledon"/></Host>
+      <Context docBase="Prj10_HelloWeb" path="/Prj10_HelloWeb" reloadable="true" source="org.eclipse.jst.jee.server:Prj10_HelloWeb"/><Context docBase="Prj12_LibreriaWeb" path="/libreria-web" reloadable="true" source="org.eclipse.jst.jee.server:Prj12_LibreriaWeb"/><Context docBase="Prj14_Contrabbando" path="/contrabbando" reloadable="true" source="org.eclipse.jst.jee.server:Prj14_Contrabbando"/><Context docBase="Prj15_Wimbledon" path="/Prj15_Wimbledon" reloadable="true" source="org.eclipse.jst.jee.server:Prj15_Wimbledon"/><Context docBase="PaesiDynamic" path="/PaesiDynamic" reloadable="true" source="org.eclipse.jst.jee.server:PaesiDynamic"/></Host>
     </Engine>
   </Service>
 </Server>
