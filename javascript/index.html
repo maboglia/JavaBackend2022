@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red {color: red;}
+        .green {color: green;}
+
+        #sinistra {
+            width: 40%; 
+            height: 100%; 
+            border-right: 0px solid #ccc;
+            float: left;
+        }
+
+        li { 
+            list-style-type: none;
+            font-size: 1.2em;
+        }
+
+        #destra {
+            width: 56%; 
+            height: 100%; 
+            border: 0px solid blue;
+            float: left;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div id="sinistra">
+            <p>inserisci un numero tra 1 e 100</p>
+
+            <select id="regione">
+                <option >scegli una regione del mondo</option>
+                <option value="europe">europe</option>
+                <option value="asia">asia</option>
+                <option value="americas">americas</option>
+                <option value="africa">africa</option>
+                <option value="oceania">oceania</option>
+
+            </select>
+
+            <button id="btnIndovina">Trova</button>
+        
+
+        </div>
+
+        <div id="destra">
+            <h1 id="titolo">Corso Java Backend</h1>
+            <div id="result"></div>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+    
+    
+     
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
