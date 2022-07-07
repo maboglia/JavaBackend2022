@@ -2,6 +2,7 @@
 <typeInfoHistroy>
     <typeInfo handle="=Prj00_Laboratorio/src&lt;interfacce{EroeSpaventoso.java[EroeSpaventoso" modifiers="1025" timestamp="1654857619489"/>
     <typeInfo handle="=Prj12_LibreriaWeb/src\/main\/java&lt;repos{LibroDAO.java[LibroDAO" modifiers="513" timestamp="1655393484396"/>
-    <typeInfo handle="=wimbledon-spring/C:\/Users\/teacher\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.7.1\/spring-data-jpa-2.7.1.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.7.1=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1656342531986"/>
     <typeInfo handle="=Prj16_Libreria/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.boglia.services{LibroService.java[LibroService" modifiers="513" timestamp="1656576941900"/>
+    <typeInfo handle="=wimbledon-spring/C:\/Users\/teacher\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.7.1\/spring-data-jpa-2.7.1.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.7.1=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1656342531986"/>
+    <typeInfo handle="=Prj18_PaesiSpring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.boglia.services{PaeseService.java[PaeseService" modifiers="513" timestamp="1656946707008"/>
 </typeInfoHistroy>
